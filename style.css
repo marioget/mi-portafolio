@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcf2f2;
+  color: #333333;
+}
+
+h1 {
+  color: #1a4a8a;
+}
+
+body {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  border-bottom: 2px solid #1a4a8a;
+  padding-bottom: 6px;
+}
+
+a {
+  color: #1a4a8a;
+}
+
+li {
+  margin-bottom: 15px; /* Ajusta los píxeles (px) según el espacio que desees */
+}
+
+/* Color del enlace en su estado normal */
+a {
+  color: #007bff; /* Azul por defecto */
+  text-decoration: none; /* Quita el subrayado si lo deseas */
+}
+
+/* Color del enlace cuando pasas el mouse por encima */
+a:hover {
+  color: #ff5733; /* Cambia a un tono naranja/rojo */
+  text-decoration: underline; /* Agrega un subrayado al pasar el mouse */
+}
+
+h1, h2, h3 {
+  font-family: 'NombreDeLaFuente', sans-serif;
+}
