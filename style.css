@@ -2,17 +2,15 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fcf2f2;
   color: #333333;
+  max-width: 700px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
 }
 
 h1 {
   color: #1a4a8a;
-}
-
-body {
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 0 20px;
-  line-height: 1.6;
 }
 
 h2 {
@@ -20,26 +18,26 @@ h2 {
   padding-bottom: 6px;
 }
 
-a {
-  color: #1a4a8a;
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
 }
 
 li {
-  margin-bottom: 15px; /* Ajusta los píxeles (px) según el espacio que desees */
+  margin-bottom: 15px;
 }
 
-/* Color del enlace en su estado normal */
 a {
-  color: #007bff; /* Azul por defecto */
-  text-decoration: none; /* Quita el subrayado si lo deseas */
+  color: #1a4a8a;
+  text-decoration: none;
 }
 
-/* Color del enlace cuando pasas el mouse por encima */
 a:hover {
-  color: #ff5733; /* Cambia a un tono naranja/rojo */
-  text-decoration: underline; /* Agrega un subrayado al pasar el mouse */
+  color: #ff5733;
+  text-decoration: underline;
 }
 
-h1, h2, h3 {
-  font-family: 'NombreDeLaFuente', sans-serif;
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8em;
+  }
 }
